@@ -6,7 +6,7 @@ class Index extends Component {
   render() {
     return (
       <WebView
-        source={{uri: 'http://prime.epikar.com/app'}}
+        source={{uri: 'https://prime.epikar.com/app'}}
         // style={{marginTop: 20}}
       />
     );
