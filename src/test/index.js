@@ -26,7 +26,7 @@ class Index extends Component {
       document.appUserPlusId = 't_plusId_${date}'; 
       document.appUserName = 't_user_${date}'; 
       document.appVehicleNumId = 't_numId_${date}';
-      document.appVehicleNumReg = 't_numId_${date}';
+      document.appVehicleNumReg = 't_numReg_${date}';
       true;
     `
   };
@@ -40,8 +40,8 @@ class Index extends Component {
     const outs = (
       <Fragment>
         <WebView
-          //source={{uri: 'https://prime.epikar.com/app'}}
-          source={{ uri: 'http://192.168.0.2:8081' }}
+          source={{uri: 'https://prime.epikar.com/app'}}
+          //source={{ uri: 'http://192.168.0.2:8081' }}
           // style={{marginTop: 20}}
           ref={r => (this.webview = r)}
           injectedJavaScript={this.params()}
