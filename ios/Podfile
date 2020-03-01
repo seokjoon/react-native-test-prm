@@ -35,20 +35,21 @@ target 'bmwAsprimeRnV1' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
-  target 'bmwAsprimeRnV1Tests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+#  target 'bmwAsprimeRnV1Tests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
 
   use_native_modules!
 end
 
-target 'bmwAsprimeRnV1-tvOS' do
-  # Pods for bmwAsprimeRnV1-tvOS
+#target 'bmwAsprimeRnV1-tvOS' do
+#  # Pods for bmwAsprimeRnV1-tvOS
+#
+#  target 'bmwAsprimeRnV1-tvOSTests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+#
+#end
 
-  target 'bmwAsprimeRnV1-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
