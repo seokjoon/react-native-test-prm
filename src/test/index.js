@@ -40,9 +40,9 @@ class Index extends Component {
     const outs = (
       <Fragment>
         <WebView
-          //source={{uri: 'https://prime.epikar.com/app'}}
-          source={{uri: 'https://prime.bmw-plus.co.k/app/plus.html'}}
-          //source={{ uri: 'http://192.168.0.2:8081' }}
+          source={{uri: 'https://prime.epikar.com/app'}}
+          //source={{uri: 'http://192.168.0.2:8081'}}
+          //source={{uri: 'http://192.168.1.4:8082'}}
           // style={{marginTop: 20}}
           ref={r => (this.webview = r)}
           injectedJavaScript={this.params()}
